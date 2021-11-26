@@ -20,7 +20,7 @@ module.exports = {
 	rootPath: global.rootPath,
 	dataFolder: path.join(global.rootPath, "data"),
 
-	uploadLimit: 2 * 1024 * 1024, // 2MB
+	uploadLimit: 5 * 1024 * 1024, // 5MB
 
 	sessions: {
 		cookie: {
